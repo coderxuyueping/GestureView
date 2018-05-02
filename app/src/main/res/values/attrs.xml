@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GestureView">
+        <attr name="circleRadius" format="float" />
+        <attr name="circleStrokeWidth" format="float" />
+        <attr name="circleColor" format="integer|color|reference" />
+        <attr name="lineStrokeWidth" format="float" />
+        <attr name="moveLineColor" format="integer|color|reference" />
+        <attr name="centerCircleRadius" format="float" />
+        <attr name="errorColor" format="integer|color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ShowGestureView">
+        <attr name="show_circleRadius" format="float" />
+        <attr name="show_strokeWidth" format="float" />
+        <attr name="show_space" format="float" />
+        <attr name="show_number" format="integer"/>
+        <attr name="show_color" format="integer|color|reference" />
+    </declare-styleable>
+</resources>
